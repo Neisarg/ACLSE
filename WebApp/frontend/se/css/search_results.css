@@ -1,0 +1,45 @@
+#big_name{
+  font-size: 2em;
+  color: 303030;
+  font-family: Times;
+  padding-left: 7.5%;
+}
+
+#uni_name{
+  font-size: 1em;
+  color: 303030;
+  letter-spacing: 3px;
+  font-family: Times;
+  padding-left: 7.5%;
+}
+
+#line{
+}
+
+#qn{
+  position: relative;
+  left: 15%;
+  font-weight: bold;
+}
+
+.search_results{
+    position: relative;
+    left: 7.5%;
+}
+
+.authors{
+  font-size: 0.8em;
+  color: 303030;
+}
+
+.title{
+  font-size: 1.3em;
+}
+
+.summary{
+  font-size: 1em;
+}
+
+.margin{
+  height: 20px;
+}

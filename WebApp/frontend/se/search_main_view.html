@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <title> ACL SE </title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}" />
+    <link rel="stylesheet" href="{% static 'css/search_main_view.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  </head>
+  <body>
+    <div id="uni_name">
+      The Pennsylvania State University
+    </div>
+    <div id="big_name">
+      ACL Anthologies Search Engine
+    </div>
+    <form class="form-inline" action="#" method="get">
+      <div class="form-group mx-sm-3 mb-2" id="search_box">
+        <input type="text" class="form-control form-control-lg col-lg-5" id="search_query" name="query_in">
+      </div>
+      <div id="search_btn">
+        <button type="submit" class="btn btn-primary mb-2 btn-lg" value="Click" name="search_button">Search</button>
+      </div>
+    </form>
+
+  </body>
+</html>

@@ -1,0 +1,45 @@
+body{
+}
+
+#big_name{
+  font-size: 3em;
+  color: 303030;
+  font-family: Times;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  bottom: 0;
+  right: 0;
+}
+
+#uni_name{
+  font-size: 1.5em;
+  color: 303030;
+  letter-spacing: 4px;
+  font-family: Times;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  bottom: 0;
+  right: 0;
+}
+
+#search_box{
+  margin: auto;
+  position: absolute;
+  top: -25%;
+  left: 25%;
+  bottom: 0;
+  right: 0;
+}
+
+#search_btn{
+  margin: auto;
+  position: absolute;
+  top: 34.75%;
+  left: 58%;
+  bottom: 0;
+  right: 0;
+}
