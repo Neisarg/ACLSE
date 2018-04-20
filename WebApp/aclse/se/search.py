@@ -1,7 +1,7 @@
 from elasticsearch import Elasticsearch, helpers
 import re
 
-ELASTIC_INDEX= 'pdf_files_small'
+ELASTIC_INDEX= 'json_files'
 size = 20
 ABSTRACT_SIZE = 500
 #open connection to Elastic
@@ -55,31 +55,40 @@ def get_search_results(query):
     for doc in hit_dict["hits"]:
         _re = ResultsEntry()
         try:
-            authors = doc["_source"]["meta"]["author"].split(";")
+            authors = doc["_source"]["authors"]
         except:
             pass
         else:
             for _a in authors:
                 _re.add_author(_a)
 
+        # try:
+        #     path = doc["_source"]["path"]["real"]
+        # except:
+        #     pass
+        # else:
+        #     url = "/".join(path.split("/")[10:])
+        #     _re.set_url(url)
+
         try:
-            path = doc["_source"]["path"]["real"]
+            url = "/".join(doc["_source"]["url"].split("/")[-6:])
         except:
             pass
         else:
-            url = "/".join(path.split("/")[9:])
             _re.set_url(url)
 
         try:
-            _re.set_title(doc["_source"]["meta"]["title"])
+            _re.set_title(doc["_source"]["title"])
         except:
             pass
 
-        #content = doc["_source"]["content"]
-        # ab_idx = content.split("\n").index("Abstract")
-        # int_idx = content.split("\n").index("Introduction")
-        abstract = "Sample Text"
-        _re.set_summary(abstract)
+        try:
+            abstract = doc["_source"]["summary"]
+        except:
+            pass
+        else:
+            _re.set_summary(abstract)
+
         result_entries.append(_re)
 
 
