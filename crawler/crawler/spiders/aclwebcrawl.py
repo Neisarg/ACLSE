@@ -4,6 +4,7 @@ import os
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from crawler.settings import DOC_HOME
+from scrapy.http import Request
 
 PDF_HOME = os.path.join(DOC_HOME, "scrapy_data_pdf")
 XML_HOME = os.path.join(DOC_HOME, "scrapy_data_xml")
