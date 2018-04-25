@@ -28,14 +28,21 @@ class AclwebcrawlSpider(CrawlSpider):
     rules = (
         Rule(
             LinkExtractor(
-                allow=( '.pdf',
-                        '.bib',
-                        '.*\/[A-Za-z]{1}\/[A-Za-z]{1}[0-9]{2}|$',
-                ),
-                deny = ( 'http://www.aclweb.org/portal/*',
-                         'http://www.aclweb.org/adminwiki/*',
-                        'http://www.aclweb.org/anthology/w/*',
-                       )
+                allow=( '.*\.pdf',),
+            ),
+            callback = 'parse_pdf',
+            follow = True
+        ),
+        Rule(
+            LinkExtractor(
+                allow=( '.*\.bib',),
+            ),
+            callback = 'parse_bib',
+            follow = True
+        ),
+        Rule(
+            LinkExtractor(
+                allow=( '.*\/[A-Za-z]{1}\/[A-Za-z]{1}[0-9]{2}|$',),
             ),
             callback = 'parse_item',
             follow = True
@@ -48,16 +55,15 @@ class AclwebcrawlSpider(CrawlSpider):
     )
 
     def parse_item(self,response):
-        print(response.url)
-        path = response.url.split('/')[-1]
-        try:
-            ftype=path.split('.')[-1]
-        except:
-            return
-        if ftype == "pdf":
-            yield Request(response.url, callback=self.parse_pdf)
-        elif ftype == "bib":
-            yield Request(response.url, callback=self.parse_bib)
+        #print(response.url)
+        paths = response.xpath('//a/@href').extract()
+        for path in paths:
+            url= response.url + path
+            if path.split('.')[-1] == "pdf":
+                #print(url)
+                yield Request(url, callback=self.parse_pdf)
+            elif path.split('.')[-1] == "bib":
+                yield Request(url, callback=self.parse_bib)
 
     def parse_bib(self,response):
         print(response.url)
@@ -65,6 +71,8 @@ class AclwebcrawlSpider(CrawlSpider):
         path = os.path.join(BIB_HOME, path)
         with open(path, 'wb') as f:
             f.write(response.body)
+        url = response.url[:-3] + "pdf"
+        yield Request(url, callback=self.parse_pdf)
 
     def parse_pdf(self, response):
         print(response.url)
