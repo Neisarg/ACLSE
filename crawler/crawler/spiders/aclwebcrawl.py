@@ -8,6 +8,7 @@ from scrapy.http import Request
 
 PDF_HOME = os.path.join(DOC_HOME, "scrapy_data_pdf")
 XML_HOME = os.path.join(DOC_HOME, "scrapy_data_xml")
+BIB_HOME = os.path.join(DOC_HOME, "scrapy_data_bib")
 
 if not os.path.exists(PDF_HOME):
     os.makedirs(PDF_HOME)
@@ -15,22 +16,57 @@ if not os.path.exists(PDF_HOME):
 if not os.path.exists(XML_HOME):
     os.makedirs(XML_HOME)
 
+if not os.path.exists(BIB_HOME):
+    os.makedirs(BIB_HOME)
+
 METADATA_ROOT = "https://aclanthology.coli.uni-saarland.de/papers/"
 
 class AclwebcrawlSpider(CrawlSpider):
     name = 'aclwebcrawl'
-    allowed_domains = ['aclweb.org','aclanthology.coli.uni-saarland.de']
+    allowed_domains = ['www.aclweb.org','www.aclanthology.coli.uni-saarland.de']
     start_urls = ["http://www.aclweb.org/anthology" ]
     rules = (
-        Rule(LinkExtractor(allow=('.pdf',)), callback='parse_pdf', follow=True),
-        Rule(LinkExtractor(allow=('^.',)), callback='parse_item', follow=True),
+        Rule(
+            LinkExtractor(
+                allow=( '.pdf',
+                        '.bib',
+                        '.*\/[A-Za-z]{1}\/[A-Za-z]{1}[0-9]{2}|$',
+                ),
+                deny = ( 'http://www.aclweb.org/portal/*',
+                         'http://www.aclweb.org/adminwiki/*',
+                        'http://www.aclweb.org/anthology/w/*',
+                       )
+            ),
+            callback = 'parse_item',
+            follow = True
+        ),
+        # Rule(LinkExtractor(allow=('.bib',)), callback='parse_bib', follow=True),
+        # Rule(LinkExtractor(allow=('.*\/[A-Za-z]{1}\/[A-Za-z]{1}[0-9]{2}|$',)), callback='parse_item', follow=True),
+        # Rule(LinkExtractor(deny=(r'https://www.aclweb.org/adminwiki/.*',))),
+        # Rule(LinkExtractor(deny=(r'https://www.aclweb.org/portal/.*',))),
+        # Rule(LinkExtractor(deny=(r'https://www.aclweb.org/w/.*',))),
     )
 
     def parse_item(self,response):
-        #print(response.url)
-        pass
+        print(response.url)
+        path = response.url.split('/')[-1]
+        try:
+            ftype=path.split('.')[-1]
+        except:
+            return
+        if ftype == "pdf":
+            yield Request(response.url, callback=self.parse_pdf)
+        elif ftype == "bib":
+            yield Request(response.url, callback=self.parse_bib)
 
-    def parse_pdf(self,response):
+    def parse_bib(self,response):
+        print(response.url)
+        path = response.url.split('/')[-1]
+        path = os.path.join(BIB_HOME, path)
+        with open(path, 'wb') as f:
+            f.write(response.body)
+
+    def parse_pdf(self, response):
         print(response.url)
         path = response.url.split('/')[-1]
         path = os.path.join(PDF_HOME, path)
@@ -46,28 +82,5 @@ class AclwebcrawlSpider(CrawlSpider):
         print(response.url)
         path = response.url.split('/')[-1]
         path = os.path.join(XML_HOME, path)
-        with open(path, 'w+') as f:
+        with open(path, 'wb') as f:
             f.write(response.body)
-
-    # def parse(self, response):
-    #     sel = Selector(response)
-    #     root = response.url
-    #     urls = sel.xpath('//a/@href').extract()
-
-        # #_urls = []
-        # for url in urls:
-        #     if url[:4] != "http":
-        #         url = root + url
-        #
-        #     if url[-3:] == "pdf":
-        #         print(url)
-        #     else:
-        #         AclwebcrawlSpider.url_queue.put(url)
-        #
-        # #print(list(AclwebcrawlSpider.url_queue.queue))
-        # if not AclwebcrawlSpider.url_queue.empty():
-        #     print("yield")
-        #     yield scrapy.Request(
-        #         AclwebcrawlSpider.url_queue.get(),
-        #         callback=self.parse
-        #     )
