@@ -23,8 +23,8 @@ METADATA_ROOT = "https://aclanthology.coli.uni-saarland.de/papers/"
 
 class AclwebcrawlSpider(CrawlSpider):
     name = 'aclwebcrawl'
-    allowed_domains = ['www.aclweb.org','www.aclanthology.coli.uni-saarland.de']
-    start_urls = ["http://www.aclweb.org/anthology" ]
+    allowed_domains = ['www.aclweb.org','aclweb.org','aclanthology.coli.uni-saarland.de']
+    start_urls = ["https://aclanthology.coli.uni-saarland.de/" ]
     rules = (
         Rule(
             LinkExtractor(
@@ -40,13 +40,28 @@ class AclwebcrawlSpider(CrawlSpider):
             callback = 'parse_bib',
             follow = True
         ),
-        Rule(
+         Rule(
             LinkExtractor(
-                allow=( '.*\/[A-Za-z]{1}\/[A-Za-z]{1}[0-9]{2}|$',),
+                allow=( '.*\.xml',),
             ),
-            callback = 'parse_item',
+            callback = 'parse_xml',
             follow = True
         ),
+        Rule(
+            LinkExtractor(
+                allow=('.*',),
+            ),
+            callback= 'parse_item',
+            follow = True
+        )
+
+        #Rule(
+        #    LinkExtractor(
+        #        allow=( '.*\/[A-Za-z]{1}\/[A-Za-z]{1}[0-9]{2}|$',),
+        #    ),
+        #    callback = 'parse_item',
+        #    follow = True
+        #),
         # Rule(LinkExtractor(allow=('.bib',)), callback='parse_bib', follow=True),
         # Rule(LinkExtractor(allow=('.*\/[A-Za-z]{1}\/[A-Za-z]{1}[0-9]{2}|$',)), callback='parse_item', follow=True),
         # Rule(LinkExtractor(deny=(r'https://www.aclweb.org/adminwiki/.*',))),
@@ -56,14 +71,17 @@ class AclwebcrawlSpider(CrawlSpider):
 
     def parse_item(self,response):
         #print(response.url)
-        paths = response.xpath('//a/@href').extract()
-        for path in paths:
-            url= response.url + path
-            if path.split('.')[-1] == "pdf":
-                #print(url)
-                yield Request(url, callback=self.parse_pdf)
-            elif path.split('.')[-1] == "bib":
-                yield Request(url, callback=self.parse_bib)
+        #paths = response.xpath('//a/@href').extract()
+        #for path in paths:
+        #    url= response.url + path
+        #    if path.split('.')[-1] == "pdf":
+        #        #print(url)
+        #        yield Request(url, callback=self.parse_pdf)
+        #    elif path.split('.')[-1] == "bib":
+        #        yield Request(url, callback=self.parse_bib)
+        url = response.url + ".pdf"
+        yield Request(url, callback=self.parse_pdf)
+        pass
 
     def parse_bib(self,response):
         print(response.url)
@@ -75,13 +93,14 @@ class AclwebcrawlSpider(CrawlSpider):
         yield Request(url, callback=self.parse_pdf)
 
     def parse_pdf(self, response):
+        if response.status != 200:
+            yield
         print(response.url)
         path = response.url.split('/')[-1]
         path = os.path.join(PDF_HOME, path)
         with open(path, 'wb') as f:
             f.write(response.body)
-
-        name = path.split('.')[0]
+        name = response.url.split('/')[-1].split('.')[0]
         _name = name[0].lower() + name[1:]
         xml_url = METADATA_ROOT + name + "/" + _name + ".xml"
         yield Request(xml_url, callback=self.parse_xml)

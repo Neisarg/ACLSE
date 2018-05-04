@@ -15,8 +15,8 @@ BOT_NAME = 'aclse.crawler'
 SPIDER_MODULES = ['crawler.spiders']
 NEWSPIDER_MODULE = 'crawler.spiders'
 
-DOC_HOME = "/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/"
-#DOC_HOME = "/home/nick/IR/documents"
+#DOC_HOME = "/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/"
+DOC_HOME = "/home/nick/IR/documents"
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'research_crawler'
