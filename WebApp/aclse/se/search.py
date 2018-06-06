@@ -1,7 +1,7 @@
 from elasticsearch import Elasticsearch, helpers
 import re
 
-ELASTIC_INDEX= 'json_files'
+ELASTIC_INDEX= 'anthology'
 size = 20
 ABSTRACT_SIZE = 500
 #open connection to Elastic
@@ -14,6 +14,8 @@ class ResultsEntry(object):
         self.url = ""
         self.summary = ""
         self.title = ""
+        self.xml = ""
+        self.bib = ""
 
     def add_author(self, name):
         self.authors_list.append(name)
@@ -24,6 +26,12 @@ class ResultsEntry(object):
 
     def set_url(self, url):
         self.url = url
+
+    def set_xml(self, xml):
+        self.xml = xml
+
+    def set_bib(self, bib):
+        self.bib = bib
 
     def set_summary(self, summary):
         self.summary = summary
@@ -55,11 +63,11 @@ def get_search_results(query):
     for doc in hit_dict["hits"]:
         _re = ResultsEntry()
         try:
-            authors = doc["_source"]["authors"]
+            authors = doc["_source"]["attachment"]["author"]
         except:
             pass
         else:
-            for _a in authors:
+            for _a in authors.split(";"):
                 _re.add_author(_a)
 
         # try:
@@ -71,19 +79,34 @@ def get_search_results(query):
         #     _re.set_url(url)
 
         try:
-            url = "/".join(doc["_source"]["url"].split("/")[-6:])
+            pdf_url = "/".join(doc["_source"]["pdf_url"].split("/")[-6:])
         except:
             pass
         else:
-            _re.set_url(url)
+            _re.set_url(pdf_url)
+        # try:
+        #     _re.set_url(doc["_source"]["pdf_url"])
+        # except:
+        #     pass
 
         try:
-            _re.set_title(doc["_source"]["title"])
+            _re.set_url(doc["_source"]["xml_url"])
         except:
             pass
 
         try:
-            abstract = doc["_source"]["summary"]
+            _re.set_url(doc["_source"]["bib_url"])
+        except:
+            pass
+
+
+        try:
+            _re.set_title(doc["_source"]["attachment"]["title"])
+        except:
+            pass
+
+        try:
+            abstract = doc["_source"]["attachment"]["content"][:400]
         except:
             pass
         else:

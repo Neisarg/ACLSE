@@ -1,0 +1,891 @@
+PUT http://localhost:9200/anthology_pdf/pdf/2?pipeline=1 [status:403 request:0.020s]
+PUT http://localhost:9200/anthology_pdf/pdf/3?pipeline=1 [status:403 request:0.039s]
+PUT http://localhost:9200/anthology_pdf/pdf/4?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/5?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/6?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/7?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/8?pipeline=1 [status:403 request:0.039s]
+PUT http://localhost:9200/anthology_pdf/pdf/9?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/10?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/11?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/12?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/13?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/14?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/15?pipeline=1 [status:403 request:0.041s]
+PUT http://localhost:9200/anthology_pdf/pdf/16?pipeline=1 [status:403 request:0.056s]
+PUT http://localhost:9200/anthology_pdf/pdf/17?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/18?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/19?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/20?pipeline=1 [status:403 request:0.045s]
+PUT http://localhost:9200/anthology_pdf/pdf/21?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/22?pipeline=1 [status:403 request:0.065s]
+PUT http://localhost:9200/anthology_pdf/pdf/23?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/24?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/25?pipeline=1 [status:403 request:0.039s]
+PUT http://localhost:9200/anthology_pdf/pdf/26?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/27?pipeline=1 [status:403 request:0.059s]
+PUT http://localhost:9200/anthology_pdf/pdf/28?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/29?pipeline=1 [status:403 request:0.056s]
+PUT http://localhost:9200/anthology_pdf/pdf/30?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/31?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/32?pipeline=1 [status:403 request:0.040s]
+Pipeline :  {'1': {'description': 'Extract attachment information', 'processors': [{'attachment': {'field': 'data'}}]}}
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1000.pdf
+2 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1001.pdf
+3 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1002.pdf
+4 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1003.pdf
+5 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1004.pdf
+6 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1005.pdf
+7 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1006.pdf
+8 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1007.pdf
+9 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1008.pdf
+10 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1009.pdf
+11 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1009.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1010.pdf
+12 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1010.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1011.pdf
+13 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1011.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1012.pdf
+14 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1012.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1013.pdf
+15 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1013.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1014.pdf
+16 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1014.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1015.pdf
+17 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1015.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1016.pdf
+18 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1016.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1017.pdf
+19 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1017.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1018.pdf
+20 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1018.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1019.pdf
+21 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1019.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1020.pdf
+22 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1020.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1021.pdf
+23 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1021.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1022.pdf
+24 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1022.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1023.pdf
+25 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1023.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1024.pdf
+26 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1024.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1025.pdf
+27 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1025.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1026.pdf
+28 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1026.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1027.pdf
+29 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1027.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1028.pdf
+30 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1028.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1029.pdf
+31 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1029.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1030.pdf
+32 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1030.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1031.pdfPUT http://localhost:9200/anthology_pdf/pdf/33?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/34?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/35?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/36?pipeline=1 [status:403 request:0.041s]
+PUT http://localhost:9200/anthology_pdf/pdf/37?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/38?pipeline=1 [status:403 request:0.038s]
+PUT http://localhost:9200/anthology_pdf/pdf/39?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/40?pipeline=1 [status:403 request:0.036s]
+PUT http://localhost:9200/anthology_pdf/pdf/41?pipeline=1 [status:403 request:0.060s]
+PUT http://localhost:9200/anthology_pdf/pdf/42?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/43?pipeline=1 [status:403 request:0.037s]
+PUT http://localhost:9200/anthology_pdf/pdf/44?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/45?pipeline=1 [status:403 request:0.043s]
+PUT http://localhost:9200/anthology_pdf/pdf/46?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/47?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/48?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/49?pipeline=1 [status:403 request:0.025s]
+PUT http://localhost:9200/anthology_pdf/pdf/50?pipeline=1 [status:403 request:0.059s]
+PUT http://localhost:9200/anthology_pdf/pdf/51?pipeline=1 [status:403 request:0.069s]
+PUT http://localhost:9200/anthology_pdf/pdf/52?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/53?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/54?pipeline=1 [status:403 request:0.045s]
+PUT http://localhost:9200/anthology_pdf/pdf/55?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/56?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/57?pipeline=1 [status:403 request:0.041s]
+PUT http://localhost:9200/anthology_pdf/pdf/58?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/59?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/60?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/61?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/62?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/63?pipeline=1 [status:403 request:0.059s]
+PUT http://localhost:9200/anthology_pdf/pdf/64?pipeline=1 [status:403 request:0.050s]
+
+33 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1031.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1032.pdf
+34 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1032.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1033.pdf
+35 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1033.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1034.pdf
+36 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1034.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1035.pdf
+37 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1035.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1036.pdf
+38 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1036.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1037.pdf
+39 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1037.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1038.pdf
+40 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1038.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1039.pdf
+41 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1039.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1040.pdf
+42 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1040.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1041.pdf
+43 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1041.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1042.pdf
+44 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1042.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1043.pdf
+45 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1043.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1044.pdf
+46 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1044.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1045.pdf
+47 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1045.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1046.pdf
+48 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-1046.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2000.pdf
+49 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2001.pdf
+50 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2002.pdf
+51 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2003.pdf
+52 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2004.pdf
+53 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2005.pdf
+54 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2006.pdf
+55 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2007.pdf
+56 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2008.pdf
+57 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2009.pdf
+58 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2009.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2010.pdf
+59 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2010.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2011.pdf
+60 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2011.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2012.pdf
+61 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2012.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2013.pdf
+62 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2013.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2014.pdf
+63 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2014.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2015.pdf
+64 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2015.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2016.pdf
+PUT http://localhost:9200/anthology_pdf/pdf/65?pipeline=1 [status:403 request:0.041s]
+PUT http://localhost:9200/anthology_pdf/pdf/66?pipeline=1 [status:403 request:0.068s]
+PUT http://localhost:9200/anthology_pdf/pdf/67?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/68?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/69?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/70?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/71?pipeline=1 [status:403 request:0.061s]
+PUT http://localhost:9200/anthology_pdf/pdf/72?pipeline=1 [status:403 request:0.038s]
+PUT http://localhost:9200/anthology_pdf/pdf/73?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/74?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/75?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/76?pipeline=1 [status:403 request:0.056s]
+PUT http://localhost:9200/anthology_pdf/pdf/77?pipeline=1 [status:403 request:0.061s]
+PUT http://localhost:9200/anthology_pdf/pdf/78?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/79?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/80?pipeline=1 [status:403 request:0.038s]
+PUT http://localhost:9200/anthology_pdf/pdf/81?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/82?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/83?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/84?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/85?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/86?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/87?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/88?pipeline=1 [status:403 request:0.043s]
+PUT http://localhost:9200/anthology_pdf/pdf/89?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/90?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/91?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/92?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/93?pipeline=1 [status:403 request:0.012s]
+PUT http://localhost:9200/anthology_pdf/pdf/94?pipeline=1 [status:403 request:0.033s]
+PUT http://localhost:9200/anthology_pdf/pdf/95?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/96?pipeline=1 [status:403 request:0.045s]
+PUT http://localhost:9200/anthology_pdf/pdf/97?pipeline=1 [status:403 request:0.028s]
+65 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2016.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2017.pdf
+66 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2017.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2018.pdf
+67 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2018.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2019.pdf
+68 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2019.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2020.pdf
+69 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2020.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2021.pdf
+70 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2021.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2022.pdf
+71 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2022.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2023.pdf
+72 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2023.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2024.pdf
+73 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2024.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2025.pdf
+74 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2025.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2026.pdf
+75 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2026.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2027.pdf
+76 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2027.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2028.pdf
+77 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2028.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2029.pdf
+78 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2029.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2030.pdf
+79 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2030.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2031.pdf
+80 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2031.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2032.pdf
+81 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2032.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2033.pdf
+82 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2033.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2034.pdf
+83 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2034.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2035.pdf
+84 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2035.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2036.pdf
+85 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2036.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2037.pdf
+86 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2037.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2038.pdf
+87 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2038.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2039.pdf
+88 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2039.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2040.pdf
+89 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2040.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2041.pdf
+90 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2041.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2042.pdf
+91 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2042.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2043.pdf
+92 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-2043.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3000.pdf
+93 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3001.pdf
+94 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3002.pdf
+95 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3003.pdf
+96 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3004.pdf
+97PUT http://localhost:9200/anthology_pdf/pdf/98?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/99?pipeline=1 [status:403 request:0.025s]
+PUT http://localhost:9200/anthology_pdf/pdf/100?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/101?pipeline=1 [status:403 request:0.029s]
+PUT http://localhost:9200/anthology_pdf/pdf/102?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/103?pipeline=1 [status:403 request:0.027s]
+PUT http://localhost:9200/anthology_pdf/pdf/104?pipeline=1 [status:403 request:0.014s]
+PUT http://localhost:9200/anthology_pdf/pdf/105?pipeline=1 [status:403 request:0.086s]
+PUT http://localhost:9200/anthology_pdf/pdf/106?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/107?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/108?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/109?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/110?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/111?pipeline=1 [status:403 request:0.010s]
+PUT http://localhost:9200/anthology_pdf/pdf/112?pipeline=1 [status:403 request:0.036s]
+PUT http://localhost:9200/anthology_pdf/pdf/113?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/114?pipeline=1 [status:403 request:0.022s]
+PUT http://localhost:9200/anthology_pdf/pdf/115?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/116?pipeline=1 [status:403 request:0.061s]
+PUT http://localhost:9200/anthology_pdf/pdf/117?pipeline=1 [status:403 request:0.024s]
+PUT http://localhost:9200/anthology_pdf/pdf/118?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/119?pipeline=1 [status:403 request:0.028s]
+PUT http://localhost:9200/anthology_pdf/pdf/120?pipeline=1 [status:403 request:0.022s]
+PUT http://localhost:9200/anthology_pdf/pdf/121?pipeline=1 [status:403 request:0.018s]
+PUT http://localhost:9200/anthology_pdf/pdf/122?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/123?pipeline=1 [status:403 request:0.037s]
+PUT http://localhost:9200/anthology_pdf/pdf/124?pipeline=1 [status:403 request:0.072s]
+PUT http://localhost:9200/anthology_pdf/pdf/125?pipeline=1 [status:403 request:0.024s]
+PUT http://localhost:9200/anthology_pdf/pdf/126?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/127?pipeline=1 [status:403 request:0.032s]
+PUT http://localhost:9200/anthology_pdf/pdf/128?pipeline=1 [status:403 request:0.008s]
+ <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3005.pdf
+98 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3006.pdf
+99 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3007.pdf
+100 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3008.pdf
+101 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-3008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-4000.pdf
+102 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A00/A00-4000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1000.pdf
+103 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1001.pdf
+104 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1002.pdf
+105 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1003.pdf
+106 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1004.pdf
+107 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1005.pdf
+108 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1006.pdf
+109 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1007.pdf
+110 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1008.pdf
+111 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1009.pdf
+112 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1009.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1010.pdf
+113 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1010.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1011.pdf
+114 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1011.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1012.pdf
+115 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1012.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1013.pdf
+116 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1013.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1014.pdf
+117 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1014.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1015.pdf
+118 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1015.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1016.pdf
+119 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1016.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1017.pdf
+120 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1017.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1018.pdf
+121 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1018.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1019.pdf
+122 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1019.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1020.pdf
+123 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1020.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1021.pdf
+124 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1021.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1022.pdf
+125 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1022.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1023.pdf
+126 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1023.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1024.pdf
+127 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1024.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1025.pdf
+128 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1025.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1026.pdfPUT http://localhost:9200/anthology_pdf/pdf/129?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/130?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/131?pipeline=1 [status:403 request:0.064s]
+PUT http://localhost:9200/anthology_pdf/pdf/132?pipeline=1 [status:403 request:0.025s]
+PUT http://localhost:9200/anthology_pdf/pdf/133?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/134?pipeline=1 [status:403 request:0.070s]
+PUT http://localhost:9200/anthology_pdf/pdf/135?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/136?pipeline=1 [status:403 request:0.009s]
+PUT http://localhost:9200/anthology_pdf/pdf/137?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/138?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/139?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/140?pipeline=1 [status:403 request:0.045s]
+PUT http://localhost:9200/anthology_pdf/pdf/141?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/142?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/143?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/144?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/145?pipeline=1 [status:403 request:0.072s]
+PUT http://localhost:9200/anthology_pdf/pdf/146?pipeline=1 [status:403 request:0.031s]
+PUT http://localhost:9200/anthology_pdf/pdf/147?pipeline=1 [status:403 request:0.036s]
+PUT http://localhost:9200/anthology_pdf/pdf/148?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/149?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/150?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/151?pipeline=1 [status:403 request:0.060s]
+PUT http://localhost:9200/anthology_pdf/pdf/152?pipeline=1 [status:403 request:0.033s]
+PUT http://localhost:9200/anthology_pdf/pdf/153?pipeline=1 [status:403 request:0.033s]
+PUT http://localhost:9200/anthology_pdf/pdf/154?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/155?pipeline=1 [status:403 request:0.064s]
+PUT http://localhost:9200/anthology_pdf/pdf/156?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/157?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/158?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/159?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/160?pipeline=1 [status:403 request:0.055s]
+
+129 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1026.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1027.pdf
+130 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1027.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1028.pdf
+131 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1028.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1029.pdf
+132 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1029.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1030.pdf
+133 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1030.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1031.pdf
+134 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1031.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1032.pdf
+135 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1032.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1033.pdf
+136 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A83/A83-1033.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1000.pdf
+137 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1001.pdf
+138 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1002.pdf
+139 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1003.pdf
+140 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1004.pdf
+141 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1005.pdf
+142 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1006.pdf
+143 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1007.pdf
+144 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1008.pdf
+145 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1009.pdf
+146 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1009.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1010.pdf
+147 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1010.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1011.pdf
+148 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1011.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1012.pdf
+149 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1012.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1013.pdf
+150 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1013.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1014.pdf
+151 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1014.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1015.pdf
+152 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1015.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1016.pdf
+153 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1016.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1017.pdf
+154 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1017.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1018.pdf
+155 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1018.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1019.pdf
+156 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1019.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1020.pdf
+157 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1020.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1021.pdf
+158 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1021.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1022.pdf
+159 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1022.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1023.pdf
+160 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1023.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1024.pdfPUT http://localhost:9200/anthology_pdf/pdf/161?pipeline=1 [status:403 request:0.011s]
+PUT http://localhost:9200/anthology_pdf/pdf/162?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/163?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/164?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/165?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/166?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/167?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/168?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/169?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/170?pipeline=1 [status:403 request:0.056s]
+PUT http://localhost:9200/anthology_pdf/pdf/171?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/172?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/173?pipeline=1 [status:403 request:0.071s]
+PUT http://localhost:9200/anthology_pdf/pdf/174?pipeline=1 [status:403 request:0.059s]
+PUT http://localhost:9200/anthology_pdf/pdf/175?pipeline=1 [status:403 request:0.060s]
+PUT http://localhost:9200/anthology_pdf/pdf/176?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/177?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/178?pipeline=1 [status:403 request:0.061s]
+PUT http://localhost:9200/anthology_pdf/pdf/179?pipeline=1 [status:403 request:0.060s]
+PUT http://localhost:9200/anthology_pdf/pdf/180?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/181?pipeline=1 [status:403 request:0.065s]
+PUT http://localhost:9200/anthology_pdf/pdf/182?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/183?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/184?pipeline=1 [status:403 request:0.065s]
+PUT http://localhost:9200/anthology_pdf/pdf/185?pipeline=1 [status:403 request:0.056s]
+PUT http://localhost:9200/anthology_pdf/pdf/186?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/187?pipeline=1 [status:403 request:0.061s]
+PUT http://localhost:9200/anthology_pdf/pdf/188?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/189?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/190?pipeline=1 [status:403 request:0.061s]
+PUT http://localhost:9200/anthology_pdf/pdf/191?pipeline=1 [status:403 request:0.045s]
+PUT http://localhost:9200/anthology_pdf/pdf/192?pipeline=1 [status:403 request:0.033s]
+
+161 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1024.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1025.pdf
+162 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1025.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1026.pdf
+163 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1026.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1027.pdf
+164 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1027.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1028.pdf
+165 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1028.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1029.pdf
+166 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1029.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1030.pdf
+167 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1030.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1031.pdf
+168 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1031.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1032.pdf
+169 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1032.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1033.pdf
+170 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1033.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1034.pdf
+171 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A88/A88-1034.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1000.pdf
+172 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1001.pdf
+173 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1002.pdf
+174 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1003.pdf
+175 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1004.pdf
+176 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1005.pdf
+177 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1006.pdf
+178 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1007.pdf
+179 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1008.pdf
+180 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1009.pdf
+181 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1009.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1010.pdf
+182 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1010.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1011.pdf
+183 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1011.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1012.pdf
+184 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1012.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1013.pdf
+185 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1013.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1014.pdf
+186 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1014.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1015.pdf
+187 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1015.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1016.pdf
+188 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1016.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1017.pdf
+189 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1017.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1018.pdf
+190 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1018.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1019.pdf
+191 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1019.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1020.pdf
+192 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1020.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1021.pdfPUT http://localhost:9200/anthology_pdf/pdf/193?pipeline=1 [status:403 request:0.033s]
+PUT http://localhost:9200/anthology_pdf/pdf/194?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/195?pipeline=1 [status:403 request:0.060s]
+PUT http://localhost:9200/anthology_pdf/pdf/196?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/197?pipeline=1 [status:403 request:0.063s]
+PUT http://localhost:9200/anthology_pdf/pdf/198?pipeline=1 [status:403 request:0.068s]
+PUT http://localhost:9200/anthology_pdf/pdf/199?pipeline=1 [status:403 request:0.066s]
+PUT http://localhost:9200/anthology_pdf/pdf/200?pipeline=1 [status:403 request:0.059s]
+PUT http://localhost:9200/anthology_pdf/pdf/201?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/202?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/203?pipeline=1 [status:403 request:0.017s]
+PUT http://localhost:9200/anthology_pdf/pdf/204?pipeline=1 [status:403 request:0.018s]
+PUT http://localhost:9200/anthology_pdf/pdf/205?pipeline=1 [status:403 request:0.025s]
+PUT http://localhost:9200/anthology_pdf/pdf/206?pipeline=1 [status:403 request:0.021s]
+PUT http://localhost:9200/anthology_pdf/pdf/207?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/208?pipeline=1 [status:403 request:0.021s]
+PUT http://localhost:9200/anthology_pdf/pdf/209?pipeline=1 [status:403 request:0.018s]
+PUT http://localhost:9200/anthology_pdf/pdf/210?pipeline=1 [status:403 request:0.025s]
+PUT http://localhost:9200/anthology_pdf/pdf/211?pipeline=1 [status:403 request:0.020s]
+PUT http://localhost:9200/anthology_pdf/pdf/212?pipeline=1 [status:403 request:0.021s]
+PUT http://localhost:9200/anthology_pdf/pdf/213?pipeline=1 [status:403 request:0.024s]
+PUT http://localhost:9200/anthology_pdf/pdf/214?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/215?pipeline=1 [status:403 request:0.032s]
+PUT http://localhost:9200/anthology_pdf/pdf/216?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/217?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/218?pipeline=1 [status:403 request:0.021s]
+PUT http://localhost:9200/anthology_pdf/pdf/219?pipeline=1 [status:403 request:0.020s]
+PUT http://localhost:9200/anthology_pdf/pdf/220?pipeline=1 [status:403 request:0.026s]
+PUT http://localhost:9200/anthology_pdf/pdf/221?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/222?pipeline=1 [status:403 request:0.056s]
+PUT http://localhost:9200/anthology_pdf/pdf/223?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/224?pipeline=1 [status:403 request:0.041s]
+
+193 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1021.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1022.pdf
+194 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1022.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1023.pdf
+195 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1023.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1024.pdf
+196 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1024.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1025.pdf
+197 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1025.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1026.pdf
+198 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1026.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1027.pdf
+199 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1027.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1028.pdf
+200 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1028.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1029.pdf
+201 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1029.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1030.pdf
+202 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1030.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1031.pdf
+203 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1031.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1032.pdf
+204 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1032.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1033.pdf
+205 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1033.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1034.pdf
+206 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1034.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1035.pdf
+207 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1035.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1036.pdf
+208 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1036.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1037.pdf
+209 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1037.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1038.pdf
+210 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1038.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1039.pdf
+211 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1039.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1040.pdf
+212 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1040.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1041.pdf
+213 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1041.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1042.pdf
+214 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1042.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1043.pdf
+215 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1043.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1044.pdf
+216 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1044.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1045.pdf
+217 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1045.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1046.pdf
+218 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1046.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1047.pdf
+219 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A92/A92-1047.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1000.pdf
+220 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1001.pdf
+221 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1002.pdf
+222 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1003.pdf
+223 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1004.pdf
+224 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1005.pdfPUT http://localhost:9200/anthology_pdf/pdf/225?pipeline=1 [status:403 request:0.039s]
+PUT http://localhost:9200/anthology_pdf/pdf/226?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/227?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/228?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/229?pipeline=1 [status:403 request:0.041s]
+PUT http://localhost:9200/anthology_pdf/pdf/230?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/231?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/232?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/233?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/234?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/235?pipeline=1 [status:403 request:0.024s]
+PUT http://localhost:9200/anthology_pdf/pdf/236?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/237?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/238?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/239?pipeline=1 [status:403 request:0.060s]
+PUT http://localhost:9200/anthology_pdf/pdf/240?pipeline=1 [status:403 request:0.037s]
+PUT http://localhost:9200/anthology_pdf/pdf/241?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/242?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/243?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/244?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/245?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/246?pipeline=1 [status:403 request:0.039s]
+PUT http://localhost:9200/anthology_pdf/pdf/247?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/248?pipeline=1 [status:403 request:0.042s]
+PUT http://localhost:9200/anthology_pdf/pdf/249?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/250?pipeline=1 [status:403 request:0.032s]
+PUT http://localhost:9200/anthology_pdf/pdf/251?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/252?pipeline=1 [status:403 request:0.017s]
+PUT http://localhost:9200/anthology_pdf/pdf/253?pipeline=1 [status:403 request:0.023s]
+PUT http://localhost:9200/anthology_pdf/pdf/254?pipeline=1 [status:403 request:0.020s]
+PUT http://localhost:9200/anthology_pdf/pdf/255?pipeline=1 [status:403 request:0.017s]
+PUT http://localhost:9200/anthology_pdf/pdf/256?pipeline=1 [status:403 request:0.020s]
+
+225 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1006.pdf
+226 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1007.pdf
+227 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1008.pdf
+228 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1009.pdf
+229 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1009.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1010.pdf
+230 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1010.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1011.pdf
+231 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1011.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1012.pdf
+232 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1012.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1013.pdf
+233 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1013.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1014.pdf
+234 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1014.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1015.pdf
+235 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1015.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1016.pdf
+236 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1016.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1017.pdf
+237 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1017.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1018.pdf
+238 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1018.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1019.pdf
+239 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1019.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1020.pdf
+240 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1020.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1021.pdf
+241 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1021.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1022.pdf
+242 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1022.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1023.pdf
+243 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1023.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1024.pdf
+244 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1024.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1025.pdf
+245 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1025.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1026.pdf
+246 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1026.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1027.pdf
+247 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1027.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1028.pdf
+248 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1028.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1029.pdf
+249 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1029.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1030.pdf
+250 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1030.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1031.pdf
+251 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1031.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1032.pdf
+252 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1032.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1033.pdf
+253 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1033.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1034.pdf
+254 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1034.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1035.pdf
+255 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1035.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1036.pdf
+256 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1036.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1037.pdfPUT http://localhost:9200/anthology_pdf/pdf/257?pipeline=1 [status:403 request:0.020s]
+PUT http://localhost:9200/anthology_pdf/pdf/258?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/259?pipeline=1 [status:403 request:0.014s]
+PUT http://localhost:9200/anthology_pdf/pdf/260?pipeline=1 [status:403 request:0.025s]
+PUT http://localhost:9200/anthology_pdf/pdf/261?pipeline=1 [status:403 request:0.015s]
+PUT http://localhost:9200/anthology_pdf/pdf/262?pipeline=1 [status:403 request:0.016s]
+PUT http://localhost:9200/anthology_pdf/pdf/263?pipeline=1 [status:403 request:0.023s]
+PUT http://localhost:9200/anthology_pdf/pdf/264?pipeline=1 [status:403 request:0.026s]
+PUT http://localhost:9200/anthology_pdf/pdf/265?pipeline=1 [status:403 request:0.020s]
+PUT http://localhost:9200/anthology_pdf/pdf/266?pipeline=1 [status:403 request:0.019s]
+PUT http://localhost:9200/anthology_pdf/pdf/267?pipeline=1 [status:403 request:0.021s]
+PUT http://localhost:9200/anthology_pdf/pdf/268?pipeline=1 [status:403 request:0.063s]
+PUT http://localhost:9200/anthology_pdf/pdf/269?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/270?pipeline=1 [status:403 request:0.030s]
+PUT http://localhost:9200/anthology_pdf/pdf/271?pipeline=1 [status:403 request:0.034s]
+PUT http://localhost:9200/anthology_pdf/pdf/272?pipeline=1 [status:403 request:0.031s]
+PUT http://localhost:9200/anthology_pdf/pdf/273?pipeline=1 [status:403 request:0.058s]
+PUT http://localhost:9200/anthology_pdf/pdf/274?pipeline=1 [status:403 request:0.060s]
+PUT http://localhost:9200/anthology_pdf/pdf/275?pipeline=1 [status:403 request:0.071s]
+PUT http://localhost:9200/anthology_pdf/pdf/276?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/277?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/278?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/279?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/280?pipeline=1 [status:403 request:0.048s]
+PUT http://localhost:9200/anthology_pdf/pdf/281?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/282?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/283?pipeline=1 [status:403 request:0.044s]
+PUT http://localhost:9200/anthology_pdf/pdf/284?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/285?pipeline=1 [status:403 request:0.049s]
+PUT http://localhost:9200/anthology_pdf/pdf/286?pipeline=1 [status:403 request:0.040s]
+PUT http://localhost:9200/anthology_pdf/pdf/287?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/288?pipeline=1 [status:403 request:0.033s]
+
+257 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1037.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1038.pdf
+258 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1038.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1039.pdf
+259 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1039.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1040.pdf
+260 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1040.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1041.pdf
+261 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1041.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1042.pdf
+262 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1042.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1043.pdf
+263 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1043.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1044.pdf
+264 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1044.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1045.pdf
+265 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1045.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1046.pdf
+266 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1046.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1047.pdf
+267 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A94/A94-1047.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1000.pdf
+268 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1000.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1001.pdf
+269 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1001.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1002.pdf
+270 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1002.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1003.pdf
+271 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1003.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1004.pdf
+272 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1004.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1005.pdf
+273 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1005.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1006.pdf
+274 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1006.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1007.pdf
+275 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1007.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1008.pdf
+276 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1008.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1009.pdf
+277 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1009.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1010.pdf
+278 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1010.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1011.pdf
+279 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1011.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1012.pdf
+280 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1012.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1013.pdf
+281 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1013.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1014.pdf
+282 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1014.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1015.pdf
+283 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1015.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1016.pdf
+284 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1016.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1017.pdf
+285 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1017.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1018.pdf
+286 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1018.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1019.pdf
+287 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1019.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1020.pdf
+288 <Response [200]> /mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1020.pdf
+/mnt/c/Users/neisa/Documents/Data/Projects/IR/ACLSE/WebApp/documents/nlp-data/aclweb.org/anthology/A/A97/A97-1021.pdfPUT http://localhost:9200/anthology_pdf/pdf/289?pipeline=1 [status:403 request:0.052s]
+PUT http://localhost:9200/anthology_pdf/pdf/290?pipeline=1 [status:403 request:0.045s]
+PUT http://localhost:9200/anthology_pdf/pdf/291?pipeline=1 [status:403 request:0.029s]
+PUT http://localhost:9200/anthology_pdf/pdf/292?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/293?pipeline=1 [status:403 request:0.050s]
+PUT http://localhost:9200/anthology_pdf/pdf/294?pipeline=1 [status:403 request:0.041s]
+PUT http://localhost:9200/anthology_pdf/pdf/295?pipeline=1 [status:403 request:0.047s]
+PUT http://localhost:9200/anthology_pdf/pdf/296?pipeline=1 [status:403 request:0.032s]
+PUT http://localhost:9200/anthology_pdf/pdf/297?pipeline=1 [status:403 request:0.046s]
+PUT http://localhost:9200/anthology_pdf/pdf/298?pipeline=1 [status:403 request:0.054s]
+PUT http://localhost:9200/anthology_pdf/pdf/299?pipeline=1 [status:403 request:0.057s]
+PUT http://localhost:9200/anthology_pdf/pdf/300?pipeline=1 [status:403 request:0.027s]
+PUT http://localhost:9200/anthology_pdf/pdf/301?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/302?pipeline=1 [status:403 request:0.068s]
+PUT http://localhost:9200/anthology_pdf/pdf/303?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/304?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/305?pipeline=1 [status:403 request:0.030s]
+PUT http://localhost:9200/anthology_pdf/pdf/306?pipeline=1 [status:403 request:0.059s]
+PUT http://localhost:9200/anthology_pdf/pdf/307?pipeline=1 [status:403 request:0.027s]
+PUT http://localhost:9200/anthology_pdf/pdf/308?pipeline=1 [status:403 request:0.061s]
+PUT http://localhost:9200/anthology_pdf/pdf/309?pipeline=1 [status:403 request:0.039s]
+PUT http://localhost:9200/anthology_pdf/pdf/310?pipeline=1 [status:403 request:0.051s]
+PUT http://localhost:9200/anthology_pdf/pdf/311?pipeline=1 [status:403 request:0.064s]
+PUT http://localhost:9200/anthology_pdf/pdf/312?pipeline=1 [status:403 request:0.053s]
+PUT http://localhost:9200/anthology_pdf/pdf/313?pipeline=1 [status:403 request:0.033s]
+PUT http://localhost:9200/anthology_pdf/pdf/314?pipeline=1 [status:403 request:0.055s]
+PUT http://localhost:9200/anthology_pdf/pdf/315?pipeline=1 [status:403 request:0.028s]
+PUT http://localhost:9200/anthology_pdf/pdf/316?pipeline=1 [status:403 request:0.060s]
